@@ -1,0 +1,440 @@
+.container {
+    max-width: 1800px;
+    height: 1000px;
+    display: flex;
+
+    .sideBar {
+        width: 300px;
+        height: 1000px;
+        background: rgba(17, 28, 68, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+        padding: 50px 50px;
+        h1 {
+            font-size: 30px;
+            font-weight: 800;
+        }
+        .sidepage {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 10px;
+            margin-bottom: 100px;
+            .pageTxt {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .mainBar {
+        width: 1620px;
+        height: 1000px;
+        padding: 40px 20px;
+        background: rgb(13, 21, 51);
+
+        .main-wrapper {
+            max-width: 1455px;
+            height: 910px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .navbar {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h1 {
+                    font-size: 34px;
+                    font-weight: 700;
+                }
+                .navTag {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    padding: 10px;
+                    border-radius: 30px;
+                    background: rgba(17, 28, 68, 1);
+                    input {
+                        font-size: 14px;
+                        font-weight: 500;
+                        background: rgb(13, 21, 51);
+                        padding: 10px;
+                        border-radius: 30px;
+                    }
+                }
+            }
+
+            .medium-product {
+                height: 365px;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .profileCard {
+                    background: rgba(17, 28, 68, 1);
+                    width: 500px;
+                    height: 321px;
+                    padding: 20px 0;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                    img {
+                        width: 450px;
+                    }
+                    .img {
+                        img {
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                    .user {
+                        text-align: center;
+                        h1 {
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                        p {
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: rgb(128, 128, 128);
+                        }
+                    }
+
+                    .follow {
+                        display: flex;
+                        align-items: center;
+                        gap: 50px;
+                        text-align: center;
+                        .txt {
+                            h1 {
+                                font-size: 24px;
+                                font-weight: 700;
+                            }
+                            p {
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: rgb(128, 128, 128);
+                            }
+                        }
+                    }
+                }
+                .storageCard {
+                    background: rgba(17, 28, 68, 1);
+                    width: 380px;
+                    height: 321px;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+                    padding: 10px;
+                    .btn {
+                        margin-left: 300px;
+                        button {
+                            padding-bottom: 5px;
+                            background: rgba(27, 37, 75, 1);
+                            width: 37px;
+                            height: 28px;
+                            text-align: center;
+                            border-radius: 10px;
+                            font-weight: 900;
+                        }
+                    }
+                    .img {
+                        background: rgba(27, 37, 75, 1);
+                        width: 100px;
+                        height: 100px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50%;
+                        img {
+                            width: 45px;
+                        }
+                    }
+                    .storage-txt {
+                        text-align: center;
+                        width: 200px;
+                        h1 {
+                            font-size: 24px;
+                            font-weight: 700;
+                        }
+                        p {
+                            font-size: 15px;
+                            font-weight: 500;
+                            color: rgb(128, 128, 128);
+                        }
+                    }
+                    .content-bar {
+                        width: 340px;
+                        height: 40px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        .txt {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            span {
+                                font-size: 14px;
+                                font-weight: 500;
+                            }
+                        }
+                        .liner {
+                            width: 336px;
+                            height: 10px;
+                            border-radius: 40px;
+                            background: rgb(34, 45, 95);
+                            .line {
+                                border-radius: 40px;
+                                width: 240px;
+                                height: 10px;
+                                background: rgba(117, 81, 255, 1);
+                            }
+                        }
+                    }
+                }
+
+                .completeCard {
+                    background: rgba(17, 28, 68, 1);
+                    width: 550px;
+                    height: 321px;
+                    padding: 10px;
+                    border-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    gap: 36px;
+                    padding: 25px;
+                    .contend {
+                        opacity: 80%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 10px;
+                        background: rgba(27, 37, 75, 1);
+                        width: 500px;
+                        padding: 60px 60px;
+                        text-align: center;
+                        border-radius: 13px;
+                        img {
+                            width: 35px;
+                            height: 45px;
+                        }
+                        h1 {
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                        p {
+                            font-size: 12px;
+                            font-weight: 900;
+                            color: rgb(177, 177, 177);
+                        }
+                    }
+                    .contend-right {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        gap: 10px;
+                        h1 {
+                            font-size: 20px;
+                            font-weight: 900px;
+                        }
+                        p {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: gray;
+                        }
+                        button {
+                            background: rgba(117, 81, 255, 1);
+                            border-radius: 16px;
+                            padding: 10px 20px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            margin-top: 40px;
+                        }
+                    }
+                }
+            }
+
+            .bottom-product {
+                height: 500px;
+                display: flex;
+                gap: 20px;
+                .project-card {
+                    padding: 20px 30px;
+                    border-radius: 20px;
+                    width: 500px;
+                    height: 480px;
+                    background: rgba(17, 28, 68, 1);
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h1 {
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+                    p {
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: gray;
+                    }
+                    .project {
+                        background: rgba(27, 37, 75, 1);
+                        border-radius: 20px;
+                        height: 110px;
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                        padding: 14px;
+                        img {
+                            border-radius: 10px;
+                        }
+                        .txt {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: start;
+                            h1 {
+                                font-size: 16px;
+                                font-weight: 500;
+                            }
+                            p {
+                                font-size: 16px;
+                                font-weight: 500;
+                                span {
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    border-bottom: 1px solid #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .information-card {
+                    width: 550px;
+                    height: 480px;
+                    border-radius: 20px;
+                    background: rgba(17, 28, 68, 1);
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding: 20px 30px;
+                    h1 {
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+                    p {
+                        font-size: 13px;
+                        font-weight: 900;
+                        color: rgb(128, 128, 128);
+                    }
+                    .information-txt {
+                        width: 480px;
+                        height: 275px;
+                        margin-top: 30px;
+                        display: flex;
+                        gap: 20px;
+
+                        .txtt {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            .txt {
+                                background: rgba(27, 37, 75, 1);
+                                width: 230px;
+                                border-radius: 20px;
+                                padding: 20px 20px;
+                                display: flex;
+                                flex-direction: column;
+                                p {
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                }
+                                h1 {
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .notifications {
+                    background: rgba(17, 28, 68, 1);
+                    width: 380px;
+                    border-radius: 20px;
+                    .navdiv {
+                        margin: 20px 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        h1 {
+                            font-size: 24px;
+                            font-weight: 700;
+                        }
+                        button {
+                            padding-bottom: 5px;
+                            background: rgba(27, 37, 75, 1);
+                            width: 37px;
+                            height: 30px;
+                            text-align: center;
+                            border-radius: 10px;
+                            font-weight: 900;
+                        }
+                    }
+                    .btnCard {
+                        width: 300px;
+                        height: 380px;
+                        margin: 0 20px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 22px;
+                        .txt {
+                            display: flex;
+                            align-items: center;
+                            gap: 15px;
+                            img {
+                                width: 36px;
+                                height: 18px;
+                            }
+                            h1 {
+                                font-size: 14px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer {
+                width: 1400px;
+                height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0 30px;
+                .tag {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+                    span {
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,149 @@
+.container {
+    max-width: 1800px;
+    height: 800px;
+    background: rgba(17, 28, 68, 1);
+    display: flex;
+    justify-content: space-between;
+    .loginPage {
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .login-form {
+            width: 410px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .header {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h1 {
+                    font-size: 36px;
+                    font-weight: 700;
+                }
+                p {
+                    color: rgba(163, 174, 208, 1);
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+            .google {
+                background: rgba(32, 44, 90, 0.719);
+                border-radius: 16px;
+                padding: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                cursor: pointer;
+                img {
+                    width: 20px;
+                }
+                span {
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+            .liner {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                .line {
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    width: 182px;
+                }
+                span {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(163, 174, 208, 1);
+                }
+            }
+            .inpt-box {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                h1 {
+                    font-size: 14px;
+                    font-weight: 500;
+                    span {
+                        color: rgba(117, 81, 255, 1);
+                    }
+                }
+                input {
+                    width: 405px;
+                    padding: 16px 24px;
+                    border-radius: 16px;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    background: rgba(17, 28, 68, 1);
+                }
+                img {
+                    width: 18px;
+                    height: 12px;
+                }
+            }
+            .check-box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .checkbox {
+                    display: flex;
+                    gap: 10px;
+                    span {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+                .forgetPass {
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+            .btn {
+                background: rgba(117, 81, 255, 1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                border-radius: 16px;
+                button {
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: rgba(163, 174, 208, 1);
+            }
+        }
+
+        .footer {   
+            width: 980px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 80px;
+
+            .tag {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                span {
+                    font-size: 10px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .img {
+        img {
+            width: 800px;
+            height: 799px;
+            border-bottom-left-radius: 200px;
+        }
+    }
+}
